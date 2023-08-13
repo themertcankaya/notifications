@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: aliceblue;
+}
+
+.container {
+  border-radius: 1rem;
+  padding: 3rem 4rem;
+  width: 50%;
+  margin: 2rem auto;
+  background-color: #fff;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.top .tops1 {
+  background-color: #173C77;
+  color: white;
+  padding: 0.2rem 0.6rem;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.top .tops2 {
+  color:#3E54A3 ;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.author-wrapper {
+  display: flex;
+  gap: 1rem;
+  align-items: start;
+  /* border: 1px solid red; */
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  position: relative;
+}
+.private {
+  background-color: rgba(240, 248, 255, 0.418);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  color: rgb(83, 80, 80);
+}
+.private:hover {
+  background-color: aliceblue;
+  color: rgb(141, 140, 140);
+}
+.chessImg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0.5rem;
+  cursor: pointer;
+}
+.author img {
+  width: 50px;
+  cursor: pointer;
+}
+p {
+  font-size: 0.83rem;
+}
+a {
+  text-decoration: none;
+}
+.name {
+  font-weight: 600;
+  font-size: 0.84rem;
+  cursor: pointer;
+}
+.text,.time {
+  color: rgb(141, 140, 140);
+}
+.link {
+  color: #173C77;
+  font-weight: 600;
+}
+.pink {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fa5d77;
+  margin-bottom: -1px;
+}
+.attribution {
+  text-align: center;
+  margin-bottom: 4rem;
+  font-size: 0.8rem;
+}
+@media (max-width:992px) {
+  .container {
+    width: 70%;
+  }
+}
+@media (max-width:768px) {
+  .container {
+    width: 80%;
+  }
+}

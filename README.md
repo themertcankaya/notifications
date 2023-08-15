@@ -8,14 +8,15 @@
 -React
 -Axios
 -JSON Server
+
+To run the project:
+
 ```
 git clone https://github.com/themertcankaya/notifications.git
 ```
 ```
 npx json-server -w data/db.json
 ```
-
-To run the project:
 
 ```
 npm install && npm run dev

@@ -3,12 +3,14 @@
 ![image](https://github.com/themertcankaya/pokemons/assets/123226376/298c30e6-3b0f-4a72-92cd-a1abd55b3256)
 ![ezgif com-crop (5)](https://github.com/themertcankaya/pokemons/assets/123226376/e007638d-d787-475c-8a1f-0b32caf379a5)
 
-## Technologies Used
+## Libraries Used
 
 -React
 -Axios
 -JSON Server
-
+```
+git clone https://github.com/themertcankaya/notifications.git
+```
 ```
 npx json-server -w data/db.json
 ```
